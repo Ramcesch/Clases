@@ -1,0 +1,6 @@
+arch1=open("rata.txt", "w", encoding="utf-8")
+arch1.write("primera linea. \n")
+arch1.write("segunda linea. \n")
+arch1.write("tercera linea. \n")
+arch1.write("♪")
+arch1.close()
