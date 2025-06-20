@@ -1,0 +1,6 @@
+arch1=open("rata.txt", "r+")
+contenido=arch1.read()
+print(contenido)
+arch1.write("otra linea 1\n")
+arch1.write("otra linea 2\n")
+arch1.close()
